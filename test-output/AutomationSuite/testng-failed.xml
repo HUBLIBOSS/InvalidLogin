@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]">
+  <test name="TestChrome(failed)">
+    <classes>
+      <class name="test.VerifyVersion">
+        <methods>
+          <include name="testVerifyVersion"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- test.VerifyVersion -->
+      <class name="test.ValidLoginLogout">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+          <include name="testValidLoginLogout"/>
+        </methods>
+      </class> <!-- test.ValidLoginLogout -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
